@@ -18,7 +18,7 @@ public class switch_tutriol {
                 break;
             default:
                 System.out.println("You are Growing!!!");
-            System.out.println("thanks For Using BakrtTech code . Remember  "+ age +"is just a  number"  );
+            System.out.println("thanks For Using BakrtTech code . Remember  "+ age +" is just a  number"  );
         }
     }
 }
