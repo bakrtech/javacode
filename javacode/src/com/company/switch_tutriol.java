@@ -6,19 +6,14 @@ public class switch_tutriol {
         int age;
         System.out.println("Please enter Your Age ");
         age = ab.nextInt();
-        switch (age){
-            case  12:
-                System.out.println("You must play GTA SAN");
-                break;
-            case 16:
-                System.out.println("You Must Learn Coding Now");
-                break;
-            case 22:
-                System.out.println("You must get job now");
-                break;
-            default:
+        switch (age) {
+            case 12 -> System.out.println("You must play GTA SAN");
+            case 16 -> System.out.println("You Must Learn Coding Now");
+            case 22 -> System.out.println("You must get job now");
+            default -> {
                 System.out.println("You are Growing!!!");
-            System.out.println("thanks For Using BakrtTech code . Remember  "+ age +" is just a  number"  );
+                System.out.println("thanks For Using BakrtTech code . Remember  " + age + " is just a  number");
+            }
         }
     }
 }
