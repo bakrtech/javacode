@@ -14,7 +14,7 @@ public class sample_paper {
          */
 
         int a = 10;
-        if (a==11){
+        if (a=11){
             System.out.print("Yes");
         }
         else {
