@@ -9,6 +9,12 @@ public class ARRAYS {
         name[i] = 2*i;
         System.out.println(name[i]);
     }
+
+        for(int w = 1;w<=10;w++){
+        int [] Numbers = new int[10];
+        Numbers [w-1] = w*3;
+            System.out.println("The numbers are" +Numbers[w-1]);
+    }
     }
 }
 
