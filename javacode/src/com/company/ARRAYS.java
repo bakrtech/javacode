@@ -13,8 +13,14 @@ public class ARRAYS {
         for(int w = 1;w<=10;w++){
         int [] Numbers = new int[10];
         Numbers [w-1] = w*3;
-            System.out.println("The numbers are" +Numbers[w-1]);
+            System.out.println("The numbers are " +Numbers[w-1]);
+            System.out.println(Numbers.length);
+        }
+    for(int element:   name){
+        System.out.println(element);
     }
+
+
     }
 }
 
