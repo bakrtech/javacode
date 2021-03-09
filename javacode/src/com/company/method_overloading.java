@@ -1,6 +1,16 @@
 package com.company;
 
 public class method_overloading {
+    static void namea(){
+        System.out.println("good morning");
+    }
+    static void namea(int a){
+        System.out.println("Good morning "+ a);
+    }
+    static void namea(int a, int b){
+        System.out.println(a +" good morning "+b);
+    }
+    // Above was the example of method overlodaing;
     void thelanguage(){
         System.out.println("We are learning Java");
     }
@@ -21,7 +31,18 @@ public class method_overloading {
         int z =67;
         change(was);
         change2(z);
-        System.out.println();
+        //array is changeable as it a refrence and z(as an int)didnt chage bcoz its copy was sent
+        System.out.println(was[0]);
+        System.out.println(z);
+        //Method over lodaing
+        int a =3;
+        int c =2;
+        namea();
+        namea(a);
+        namea(a,c);
+
+
     }
+
 }
 
