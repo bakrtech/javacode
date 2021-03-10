@@ -1,7 +1,10 @@
 package com.company;
 class base{
     base(){
-        System.out.println("a");
+        System.out.println("NO arguments in me ;}");
+    }
+    base(int a){
+        System.out.println(a);
         System.out.println("I am an constructor of base class");//This is called a constructor in java language
     }
     int c;
@@ -16,8 +19,10 @@ class base{
 
 }
 class  derivied extends base{
+
     derivied(){
-        System.out.println("I am constructor of derived class");
+        super(1);
+        System.out.println("I am constructor of derived class and my value of a is: "+ a);
     }
     int a;
 
@@ -45,8 +50,9 @@ class VAS extends derivied{
 }
 public class Inheritenc_tut {
     public static void main(String[] args) {
-        base a = new base();
+        base a = new base(1);
         System.out.println("Above was base");
+
         derivied n  = new derivied();
         System.out.println(" Above was dervied ");
         VAS bakrtech = new VAS();
