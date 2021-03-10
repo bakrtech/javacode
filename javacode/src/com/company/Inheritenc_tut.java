@@ -1,6 +1,7 @@
 package com.company;
 class base{
     base(){
+        System.out.println("a");
         System.out.println("I am an constructor of base class");//This is called a constructor in java language
     }
     int c;
