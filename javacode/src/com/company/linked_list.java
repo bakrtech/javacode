@@ -17,7 +17,7 @@ public class linked_list {
         ar.add(44);
         System.out.println(ar.contains(78));
         ar.set(2,343);
-//        ar.addAll(ar2);
+       ar.addAll(ar2);
         System.out.println(ar);
 //        for(int i=0; i<ar.size();i++){
 //            System.out.println(ar.get(i));
